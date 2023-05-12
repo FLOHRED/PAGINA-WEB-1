@@ -120,7 +120,12 @@ ul{
     direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    
 
+}
+.tarjeta2:hover{
+    box-shadow: 6px 6px 10px rgb(134,134,134)
+    
 }
 .foto2 {
     display: block;
