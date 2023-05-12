@@ -1,0 +1,176 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+}
+.navBar{
+    background-color: #bbc2bb;
+    padding: 1em 0 0 1em;
+
+}
+.logo{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 5em;
+    margin: 0 0 0 3em;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: right;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.opcionMenu{
+    padding: .5em;
+    text-transform: uppercase;
+}
+.opcionMenu:hover{
+    background-color: #99a59a;
+}
+.enlace:link, .enlace:visited,.enlace:active{
+    color: black;
+    text-decoration: none;
+
+}
+.cuerpoPrincipal{
+    width: 100%;
+    height: 100%;
+    background-color: #eff5f0;
+}
+/***** TIENDA *****/
+.grupoTarjetas{
+    display: flex;
+    direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.tarjeta{
+    width: 20em;
+    padding: 1em;
+    margin: 2em;
+    background-color: antiquewhite; 
+    box-shadow: 2px 2px 2px rgb(180,180,180);
+    transition: box-shadow .3s;
+    border-radius: 3px;
+
+}
+.tarjeta:hover{
+    box-shadow: 6px 6px 10px rgb(134,134,134)
+    
+}
+.foto {
+    display: block;
+    max-width: 100%;
+    height: 25em;
+    margin: 0 auto 2em auto;
+  }
+
+.articulo{
+    font-size: 1.5em;
+}
+
+.genero .articulo {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+.adicional{
+    width: 100%;
+    text-align: center;
+    margin: 0.5em;
+    font-size: 1em;
+
+}
+.precio{
+    width: 100%;
+    text-align: right;
+    margin: 1em 0 0;
+    font-size: 1.5em;
+}
+/*** contactenos***/
+.datos{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0 0 0 0;
+    padding: 0 1em 0 1em;
+
+    width: 100%;
+    height: 100%;
+    background-color: #eff5f0;
+
+}
+
+/** novedades**/
+.tarjeta2{
+    width: 40em;
+    padding: 1em;
+    margin: 2em;
+    background-color: antiquewhite; 
+    box-shadow: 2px 2px 2px rgb(180,180,180);
+    transition: box-shadow .3s;
+    border-radius: 3px;
+    display: flex;
+    direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.foto2 {
+    display: block;
+    max-width: 100%;
+    height: 25em;
+    margin: 5em auto 5em auto;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    text-align: left;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
